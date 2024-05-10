@@ -1,4 +1,4 @@
-package com.example.temp
+package com.example.fcalendar
 
 import io.flutter.embedding.android.FlutterActivity
 
