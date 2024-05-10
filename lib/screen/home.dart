@@ -1,3 +1,4 @@
+import 'package:fcalendar/component/todaybanner.dart';
 import 'package:flutter/material.dart';
 import 'package:fcalendar/component/calendar.dart';
 import 'package:fcalendar/component/card.dart';
@@ -21,6 +22,9 @@ class _HomeState extends State<Home> {
               selectedDate: selectedDate,
               onDaySelected: onDaySelected,
             ),
+            SizedBox(height: 8.0,),
+            TodayBanner(selectedDate: selectedDate, count: 0),
+            SizedBox(height: 8.0,),
             const MyCard(
               content: 'Meeting with client11345',
               startTime: 12,
